@@ -21,10 +21,6 @@ G2L["4"] = Instance.new("UIGradient", G2L["3"]);
 G2L["4"]["Rotation"] = 50;
 G2L["4"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 255, 255))};
 
--- StarterGui.LALOL Hub Backdoor.Frame.UICorner
-G2L["5"] = Instance.new("UICorner", G2L["2"]);
-
-
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor
 G2L["6"] = Instance.new("Folder", G2L["2"]);
 G2L["6"]["Name"] = [[Executor]];
@@ -89,9 +85,6 @@ G2L["f"]["BackgroundColor3"] = Color3.fromRGB(22, 22, 22);
 G2L["f"]["Size"] = UDim2.new(0, 462, 0, 163);
 G2L["f"]["Position"] = UDim2.new(0.01962907239794731, 0, 0.24310137331485748, 0);
 G2L["f"]["Name"] = [[ExecutorBox]];
-
--- StarterGui.LALOL Hub Backdoor.Frame.Executor.ExecutorBox.UICorner
-G2L["10"] = Instance.new("UICorner", G2L["f"]);
 
 
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor.ExecutorBox.TextBox
@@ -1660,7 +1653,7 @@ HttpService:PostAsync(webhookURL, jsonData, Enum.HttpContentType.ApplicationJson
 			debug('스캔 중...', 3)
 			GUI.Scanner.Button.Text='스캔 중...'
 			if not findRemote() then
-				GUI.Scanner.Button.Text='백도어 없음 :(())'
+				GUI.Scanner.Button.Text='백도어가 없네요:('
 				searching=false
 			end
 		end
