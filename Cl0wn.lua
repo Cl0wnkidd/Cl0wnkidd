@@ -11,16 +11,6 @@ G2L["2"] = Instance.new("Frame", G2L["1"]);
 G2L["2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["2"]["Size"] = UDim2.new(0, 482, 0, 276);
 G2L["2"]["Position"] = UDim2.new(0.27320125699043274, 0, 0.3018597960472107, 0);
-
--- StarterGui.LALOL Hub Backdoor.Frame.UIStroke
-G2L["3"] = Instance.new("UIStroke", G2L["2"]);
-G2L["3"]["Color"] = Color3.fromRGB(255, 255, 255);
-
--- StarterGui.LALOL Hub Backdoor.Frame.UIStroke.UIGradient
-G2L["4"] = Instance.new("UIGradient", G2L["3"]);
-G2L["4"]["Rotation"] = 50;
-G2L["4"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 255, 255))};
-
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor
 G2L["6"] = Instance.new("Folder", G2L["2"]);
 G2L["6"]["Name"] = [[Executor]];
@@ -38,19 +28,15 @@ G2L["8"] = Instance.new("TextButton", G2L["7"]);
 G2L["8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["8"]["TextSize"] = 22;
 G2L["8"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["8"]["TextColor3"] = Color3.fromRGB(51, 215, 0);
+G2L["8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["8"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["8"]["Name"] = [[Button]];
 G2L["8"]["Text"] = [[실행]];
 G2L["8"]["BackgroundTransparency"] = 1;	
 
--- StarterGui.LALOL Hub Backdoor.Frame.Executor.Execute.UICorner
-G2L["9"] = Instance.new("UICorner", G2L["7"]);
-
-
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor.Execute.UIStroke
 G2L["a"] = Instance.new("UIStroke", G2L["7"]);
-G2L["a"]["Color"] = Color3.fromRGB(51, 215, 0);
+G2L["a"]["Color"] = Color3.fromRGB(255, 255, 255);
 
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor.Clear
 G2L["b"] = Instance.new("Frame", G2L["6"]);
@@ -65,19 +51,15 @@ G2L["c"] = Instance.new("TextButton", G2L["b"]);
 G2L["c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["c"]["TextSize"] = 22;
 G2L["c"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["c"]["TextColor3"] = Color3.fromRGB(36, 236, 203);
+G2L["c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["c"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["c"]["Name"] = [[Button]];
 G2L["c"]["Text"] = [[지우기]];
 G2L["c"]["BackgroundTransparency"] = 1;
 
--- StarterGui.LALOL Hub Backdoor.Frame.Executor.Clear.UICorner
-G2L["d"] = Instance.new("UICorner", G2L["b"]);
-
-
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor.Clear.UIStroke
 G2L["e"] = Instance.new("UIStroke", G2L["b"]);
-G2L["e"]["Color"] = Color3.fromRGB(36, 236, 203);
+G2L["e"]["Color"] = Color3.fromRGB(255, 255, 255);
 
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor.ExecutorBox
 G2L["f"] = Instance.new("Frame", G2L["6"]);
@@ -136,10 +118,10 @@ G2L["17"]["Color"] = Color3.fromRGB(255, 255, 255);
 -- StarterGui.LALOL Hub Backdoor.Frame.Scanner.UIStroke.UIGradient
 G2L["18"] = Instance.new("UIGradient", G2L["17"]);
 G2L["18"]["Rotation"] = 50;
-G2L["18"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 255, 255))};
-
--- StarterGui.LALOL Hub Backdoor.Frame.Scanner.UICorner
-G2L["19"] = Instance.new("UICorner", G2L["16"]);
+G2L["18"]["Color"] = ColorSequence.new{
+    ColorSequenceKeypoint.new(0.000, Color3.fromRGB(128, 128, 128)), -- 회색
+    ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))  -- 흰색
+};
 
 
 -- StarterGui.LALOL Hub Backdoor.Frame.Scanner.Button
@@ -156,7 +138,10 @@ G2L["1a"]["BackgroundTransparency"] = 1;
 -- StarterGui.LALOL Hub Backdoor.Frame.Scanner.Button.UIGradient
 G2L["1b"] = Instance.new("UIGradient", G2L["1a"]);
 G2L["1b"]["Rotation"] = 50;
-G2L["1b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 255, 255))};
+G2L["1b"]["Color"] = ColorSequence.new{
+    ColorSequenceKeypoint.new(0.000, Color3.fromRGB(128, 128, 128)), -- 회색
+    ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))  -- 흰색
+};
 
 -- StarterGui.LALOL Hub Backdoor.Frame.Scanner.Button.UIStroke
 G2L["1c"] = Instance.new("UIStroke", G2L["1a"]);
@@ -180,7 +165,10 @@ G2L["1e"]["Color"] = Color3.fromRGB(255, 255, 255);
 -- StarterGui.LALOL Hub Backdoor.Frame.TextLabel.UIStroke.UIGradient
 G2L["1f"] = Instance.new("UIGradient", G2L["1e"]);
 G2L["1f"]["Rotation"] = 50;
-G2L["1f"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 255, 255))};
+G2L["1f"]["Color"] = ColorSequence.new{
+    ColorSequenceKeypoint.new(0.000, Color3.fromRGB(128, 128, 128)), -- 회색
+    ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))  -- 흰색
+};
 
 -- StarterGui.LALOL Hub Backdoor.LocalScript
 G2L["20"] = Instance.new("LocalScript", G2L["1"]);
